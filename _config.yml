@@ -13,6 +13,7 @@ title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : Asher Ciardiello
 description              : Asher Ciardiello - Projects and CV 
+url: "https://cornell-mae-ug.github.io"
 baseurl                  : "/fa25-portfolio-agc971011"
 
 # Theme and Style
