@@ -1,6 +1,6 @@
 ---
 layout: default
-title: <Your Name> - Curriculum Vitae
+title: Asher Ciardiello - Curriculum Vitae
 permalink: /cv/
 ---
 ## Curriculum Vitae
