@@ -22,8 +22,7 @@ Aspiring engineering student with a strong foundation in mechanical energining. 
   *Bachelor of Science in Mechanical Engineering*  
   GPA: 4.0/4.0 | Graduation: June, 2028
 
-- **[Choate Rosemary Hall]**  
-  *High School Diploma*  
+- **Choate Rosemary Hall**  
   Graduation: [05, 2024]
 
 ---
