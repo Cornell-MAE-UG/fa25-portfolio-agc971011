@@ -23,7 +23,7 @@ Aspiring engineering student with a strong foundation in mechanical energining. 
   GPA: 4.0/4.0 | Graduation: June, 2028
 
 - **Choate Rosemary Hall**  
-  Graduation: [05, 2024]
+  Graduation: 05, 2024
 
 ---
 
