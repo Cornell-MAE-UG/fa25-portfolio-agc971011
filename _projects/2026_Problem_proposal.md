@@ -3,10 +3,10 @@ layout: project
 title: Grape Guardians – SLF Light Trap
 description: Engineering Design Project – Preventing Spotted Lanternfly Damage in Vineyards
 technologies: Research
-pdf: /assets/images/O3_GrapeGuardians.pdf
+Image: /assets/images/fly.png
 ---
 
-Collaborated on an engineering design project focused on mitigating the impact of Spotted Lanternflies (SLFs) on grape production. Our team, *Grape Guardians*, saught to address the increasing economic and agricultural damage caused by SLFs in vineyards.
+We collaborated on an engineering design project focused on mitigating the impact of Spotted Lanternflies (SLFs) on grape production. Our team, *Grape Guardians*, saught to address the increasing economic and agricultural damage caused by SLFs in vineyards.
 
 We developed an idea of a  perimeter-based light trap system designed to attract SLFs away from grapevines, preventing infestation before harvest. Conducted background research on SLF behavior, population density, and projected economic impact, using data-driven analysis to justify a preventative design approach rather than post-harvest separation.
 
@@ -14,4 +14,4 @@ We also created an idea of a trapping mechanism incorporating one-way entry to c
 
 This project required systems-level thinking, research synthesis, risk assessment, and sustainable design principles to propose ideas for a unique but simple solution.
 
-[View Full Project Write-Up (PDF)](/assets/images/O3_GrapeGuardians.pdf)
+[View Full Project Write-Up (PDF)](/assets/pdfs/O3_GrapeGuardians.pdf)
