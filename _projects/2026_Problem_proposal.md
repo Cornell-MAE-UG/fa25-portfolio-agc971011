@@ -12,4 +12,4 @@ We developed an idea of a perimeter-based light trap system designed to attract 
 
 This project required systems-level thinking, research synthesis, risk assessment, and sustainable design principles to propose ideas for a unique but simple solution.
 
-[View Full Project Write-Up (PDF)](/assets/pdfs/O3_GrapeGuardians.pdf)
+[View Full Project Write-Up (PDF)](/fa25-portfolio-agc971011/assets/pdfs/O3_GrapeGuardians.pdf)
