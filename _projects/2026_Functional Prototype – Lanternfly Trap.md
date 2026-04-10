@@ -47,7 +47,7 @@ technologies: [Mechanical Design, Prototyping, 3D Printing, Testing, CAD]
 </style>
 
 <div class="fp-hero">
-<h2 id="functional-prototype">Functional Prototype – Lanternfly Trap</h2>
+<h2>Functional Prototype – Lanternfly Trap</h2>
 
 <p>
 This prototype was designed to test a mechanical system for capturing and eliminating spotted lanternflies using a rotating disk with ridges.
@@ -61,7 +61,7 @@ This prototype was designed to test a mechanical system for capturing and elimin
 
 ---
 
-## <h2 id="overview">Prototype Overview</h2>
+<h2 id="overview">Prototype Overview</h2>
 
 The system uses rotation and geometry to either force bugs into a tube or squash them.
 
@@ -79,22 +79,22 @@ The system uses rotation and geometry to either force bugs into a tube or squash
 <div class="fp-gallery">
 
 <div class="fp-figure">
-<img src="/assets/images/exploded_view.png">
+<img src="{{ '/assets/images/exploded_view.png' | relative_url }}">
 <div class="fp-figcap"><b>Exploded CAD View.</b> Shows all major components and assembly layout.</div>
 </div>
 
 <div class="fp-figure">
-<img src="/assets/images/prototype_full.jpg">
+<img src="{{ '/assets/images/prototype_full.jpg' | relative_url }}">
 <div class="fp-figcap"><b>Full Prototype.</b> Assembled device with rotating disk and ridge system.</div>
 </div>
 
 <div class="fp-figure">
-<img src="/assets/images/ridges.jpg">
+<img src="{{ '/assets/images/ridges.jpg' | relative_url }}">
 <div class="fp-figcap"><b>Ridges Detail.</b> Direct bugs inward or squash them.</div>
 </div>
 
 <div class="fp-figure">
-<img src="/assets/images/tube.jpg">
+<img src="{{ '/assets/images/tube.jpg' | relative_url }}">
 <div class="fp-figcap"><b>Tube + Containment.</b> Guides bugs into collection area.</div>
 </div>
 
@@ -117,16 +117,16 @@ Replace these placeholder images with your actual images from your Google Doc.
 | Fasteners | Enable rotation |
 
 ---
-# <h2 id="testing">Testing</h2>
+
+<h2 id="testing">Testing</h2>
 
 <div class="fp-note">
-Testing focused on evaluating the performance, durability, and effectiveness of the lanternfly trapping mechanism under realistic operating conditions. Each test targeted a specific function of the system and helped identify both strengths and areas for improvement.
+Testing focused on evaluating the performance, durability, and effectiveness of the lanternfly trapping mechanism under realistic operating conditions.
 </div>
 
 ---
 
 ### Test 1: Light Transmission
-
 **Purpose:**  
 To determine whether sufficient light passes through the acrylic plate to effectively attract lanternflies. Light attraction is critical to the success of the trap.
 
