@@ -1,10 +1,31 @@
 ---
 # this ensures Jekyll reads the file to be transformed into CSS later
-# only Main files contain this front matter, not partials.
---- 
+---
 
 $color_scheme: '{{ site.color_scheme }}';
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Merriweather:wght@400;700&display=swap');
 @import "custom";
 
+/* ===== FIX PROJECT TITLE CUT OFF ===== */
+
+.project-title {
+  white-space: normal;      /* allows wrapping */
+  overflow: visible;        /* prevents cutting off */
+  text-align: center;
+  margin-top: 8px;
+}
+
+/* Ensure gallery items expand for text */
+.gallery-item {
+  height: auto;
+  overflow: visible;
+}
+
+/* Optional: cleaner 2-line titles instead of messy wrapping */
+.project-title {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;     /* limits to 2 lines */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
