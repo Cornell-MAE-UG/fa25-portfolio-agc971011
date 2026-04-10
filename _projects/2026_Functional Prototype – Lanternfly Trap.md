@@ -65,6 +65,9 @@ This prototype was designed to test a mechanical system for capturing and elimin
   </div>
 </div>
 
+</div>
+
+
 ---
 
 <h2 id="overview">Prototype Overview</h2>
