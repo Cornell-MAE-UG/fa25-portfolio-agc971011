@@ -54,9 +54,15 @@ This prototype was designed to test a mechanical system for capturing and elimin
 </p>
 
 <div class="fp-nav">
-<a href="#overview"><div class="fp-nav-item"><b>Overview</b><br>Purpose and design</div></a>
-<a href="#testing"><div class="fp-nav-item"><b>Testing</b><br>Experiments and results</div></a>
-</div>
+  <div class="fp-nav-item">
+    <a href="#overview"><b>Overview</b></a><br>
+    <span>Purpose and design</span>
+  </div>
+
+  <div class="fp-nav-item">
+    <a href="#testing"><b>Testing</b></a><br>
+    <span>Experiments and results</span>
+  </div>
 </div>
 
 ---
@@ -89,20 +95,18 @@ The system uses rotation and geometry to either force bugs into a tube or squash
 </div>
 
 <div class="fp-figure">
-<img src="{{ '/assets/images/ridges.jpg' | relative_url }}">
+<img src="/fa25-portfolio-agc971011/assets/images/ridges.jpg">
 <div class="fp-figcap"><b>Ridges Detail.</b> Direct bugs inward or squash them.</div>
 </div>
 
 <div class="fp-figure">
-<img src="{{ '/assets/images/tube.jpg' | relative_url }}">
+<img src="/fa25-portfolio-agc971011/assets/images/tube.jpg">
 <div class="fp-figcap"><b>Tube + Containment.</b> Guides bugs into collection area.</div>
 </div>
 
 </div>
 
-<div class="fp-note">
-Replace these placeholder images with your actual images from your Google Doc.
-</div>
+
 
 ---
 
@@ -110,11 +114,11 @@ Replace these placeholder images with your actual images from your Google Doc.
 
 | Component | Purpose |
 |----------|--------|
-| Acrylic Plate | Rotates and drives motion |
-| Ridges | Move or squash bugs |
-| Roof | Prevents escape |
-| Tube | Transfers bugs |
-| Fasteners | Enable rotation |
+| Acrylic Plate: | Rotates and drives motion |
+| Ridges: | Move or squash bugs |
+| Roof: | Prevents escape |
+| Tube: | Transfers bugs |
+| Fasteners: | Enable rotation |
 
 ---
 
