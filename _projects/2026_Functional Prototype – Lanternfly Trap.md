@@ -98,15 +98,14 @@ The system uses rotation and geometry to either force bugs into a tube or squash
 </div>
 
 <div class="fp-figure">
-<img src="/fa25-portfolio-agc971011/assets/images/ridges.png">
+<img src="{{ '/assets/images/ridges.png' | relative_url }}">
 <div class="fp-figcap"><b>Ridges Detail.</b> Direct bugs inward or squash them.</div>
 </div>
 
 <div class="fp-figure">
-<img src="/fa25-portfolio-agc971011/assets/images/tube.png">
+<img src="{{ '/assets/images/tube.png' | relative_url }}">
 <div class="fp-figcap"><b>Tube + Containment.</b> Guides bugs into collection area.</div>
 </div>
-
 </div>
 
 
