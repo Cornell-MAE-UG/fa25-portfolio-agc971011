@@ -1,211 +1,309 @@
 ---
 layout: project
 title: Lantern Lure
-description: Client-focused engineering design project for a light-based spotted lanternfly trapping system
+description: MAE 2250 project hub linking the client pitch, functional prototype, and final client report
 image: /assets/images/fly.png
-technologies: [Mechanical Design, Client Report, Functional Prototyping, CAD, Testing]
+technologies: [Research, Client Report, Mechanical Design, Prototyping, Testing, CAD]
 ---
 
 <style>
-.ll-hero,.ll-section,.ll-callout,.ll-media,.ll-table-wrap {
-  border: 1px solid #e4e6df;
-  border-radius: 8px;
+.fp-hero,.fp-card,.fp-figure,.fp-table-wrap {
+  border: 1px solid #e7e7e2;
+  border-radius: 16px;
   background: #fff;
 }
 
-.ll-hero,.ll-section,.ll-callout {
-  padding: 1rem;
+.fp-hero,.fp-card {
+  padding: 1.2rem;
   margin: 1rem 0;
 }
 
-.ll-hero {
-  background: #f7f8f2;
+.fp-hero {
+  background: linear-gradient(135deg,#f7f8f2 0%,#ffffff 55%,#f3f7f5 100%);
 }
 
-.ll-grid {
+.fp-nav {
   display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-template-columns: repeat(3,1fr);
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.fp-nav-item {
+  padding: 1rem;
+  border-radius: 12px;
+  border: 1px solid #ddd;
+}
+
+.fp-nav-item a {
+  text-decoration: none;
+}
+
+.fp-gallery {
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
   gap: 1rem;
   margin: 1rem 0;
 }
 
-.ll-media {
+.fp-figure {
   overflow: hidden;
 }
 
-.ll-placeholder {
-  min-height: 190px;
+.fp-figure img {
+  width: 100%;
+  display: block;
+  border-radius: 12px;
+}
+
+.fp-figure img + .fp-placeholder {
+  display: none;
+}
+
+.fp-placeholder {
+  min-height: 210px;
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
   padding: 1rem;
   background: #eef4e8;
-  color: #2f3a2f;
+  color: #304030;
   font-size: .92rem;
 }
 
-.ll-media img {
-  width: 100%;
-  display: block;
-}
-
-.ll-media img + .ll-placeholder {
-  display: none;
-}
-
-.ll-caption {
-  padding: .65rem;
+.fp-figcap {
   font-size: .9rem;
+  padding: .5rem;
   color: #444;
 }
 
-.ll-callout {
-  border-left: 4px solid #6f8f45;
-  background: #f8fbf3;
-}
-
-.ll-table {
+.fp-table {
   width: 100%;
   border-collapse: collapse;
 }
 
-.ll-table th,.ll-table td {
+.fp-table th,.fp-table td {
   padding: .6rem;
-  border-bottom: 1px solid #eceee8;
+  border-bottom: 1px solid #eee;
   text-align: left;
   vertical-align: top;
 }
 
+.fp-note {
+  background: #f8fbf3;
+  padding: .8rem;
+  border-left: 4px solid #799d4b;
+}
+
 @media (max-width: 700px) {
-  .ll-grid {
+  .fp-nav,
+  .fp-gallery {
     grid-template-columns: 1fr;
   }
 }
 </style>
 
-<div class="ll-hero">
+<div class="fp-hero">
 <h2>Lantern Lure</h2>
 
 <p>
-Lantern Lure is a client-focused engineering design project developed to reduce spotted lanternfly damage in vineyards. The design uses light attraction, a protective housing, and a rotating ridge mechanism to draw insects away from grapevines and move them into a containment path before they can damage crops.
+Lantern Lure is the overall MAE 2250 project focused on reducing spotted lanternfly damage in vineyards. The project progressed through three main milestones: the original client pitch, the functional prototype, and the final client report.
+</p>
+
+<div class="fp-nav">
+  <div class="fp-nav-item">
+    <a href="{% link _projects/2026_Problem_proposal.md %}"><b>Client Pitch</b></a><br>
+    <span>O3: Grape Guardians – SLF Light Trap</span>
+  </div>
+
+  <div class="fp-nav-item">
+    <a href="{% link _projects/2026_Functional Prototype – Lanternfly Trap.md %}"><b>Functional Prototype</b></a><br>
+    <span>O5: Rotating trap mechanism and test results</span>
+  </div>
+
+  <div class="fp-nav-item">
+    <a href="#client-report"><b>Client Report</b></a><br>
+    <span>O6: Final project summary and supporting evidence</span>
+  </div>
+</div>
+
+</div>
+
+---
+
+## Milestone Overview
+
+<div class="fp-card">
+<p>
+<b>Client Pitch:</b> The <i>Grape Guardians – SLF Light Trap</i> page presents the original problem framing and concept proposal for attracting spotted lanternflies away from grapevines with a perimeter light trap.
 </p>
 
 <p>
-The final portfolio combines the original client proposal with the functional prototype work: identifying the client need, defining measurable design requirements, building a testable mechanism, and using prototype data to guide the next design iteration.
+<a href="{% link _projects/2026_Problem_proposal.md %}">Open Client Pitch page</a>
 </p>
 </div>
 
-## Project Need
+<div class="fp-card">
+<p>
+<b>Functional Prototype:</b> The prototype page documents the mechanical design, fabrication choices, and full testing process for the rotating ridge mechanism.
+</p>
 
-Spotted lanternflies are an invasive pest that feed on grapevines and threaten vineyard yield and fruit quality. For a vineyard client, the most useful solution is not only a trap that kills insects, but a system that can be placed around vulnerable growing areas, attract lanternflies away from crops, and operate with limited chemical intervention.
-
-The design challenge was to create a perimeter-based trapping concept that could attract lanternflies using light, physically prevent escape, and remain simple enough to prototype and improve through testing.
-
-<div class="ll-callout">
-<b>Client goal:</b> protect grape production by intercepting spotted lanternflies before they reach the vines, while keeping the design practical, low-cost, and safer than broad chemical treatment.
+<p>
+<a href="{% link _projects/2026_Functional Prototype – Lanternfly Trap.md %}">Open Functional Prototype page</a>
+</p>
 </div>
 
-## Design Approach
-
-The proposed system combines three main functions:
-
-- <b>Attraction:</b> a light source draws lanternflies toward the trap, especially in low-light conditions.
-- <b>Capture:</b> the roof and tube geometry guide insects into the device and reduce the chance of escape.
-- <b>Removal:</b> a rotating acrylic plate with ridges moves insects toward the tube and can crush or force them into containment.
-
-Early work focused on the overall client proposal and problem definition. The functional prototype then narrowed the scope to the mechanical capture mechanism so the team could test whether the moving plate, ridges, roof, and tube could work together.
-
-## Prototype Gallery
-
-Add the following images to `assets/images/` using these exact filenames. I placed each one where it best supports the story of the project.
-
-<div class="ll-grid">
-  <div class="ll-media">
-    <img src="{{ '/assets/images/intake-exploded-cad.png' | relative_url }}" alt="Exploded CAD assembly of the Lantern Lure prototype" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
-    <div class="ll-placeholder"><b>intake-exploded-cad.png</b><br>Place the exploded CAD assembly here.</div>
-    <div class="ll-caption"><b>Exploded CAD Assembly.</b> Shows the full component layout, including the acrylic plate, roof, ridges, tube, and fasteners.</div>
-  </div>
-
-  <div class="ll-media">
-    <img src="{{ '/assets/images/intake-final-assembly.png' | relative_url }}" alt="Full assembled Lantern Lure functional prototype" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
-    <div class="ll-placeholder"><b>intake-final-assembly.png</b><br>Place the full assembled prototype here.</div>
-    <div class="ll-caption"><b>Final Assembly.</b> Shows the complete functional prototype as built for testing.</div>
-  </div>
-
-  <div class="ll-media">
-    <img src="{{ '/assets/images/intake-light-mechanism-dark.png' | relative_url }}" alt="Lantern Lure light mechanism glowing in a dark room" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
-    <div class="ll-placeholder"><b>intake-light-mechanism-dark.png</b><br>Place the dark-room light mechanism image here.</div>
-    <div class="ll-caption"><b>Light Attraction Mechanism.</b> Demonstrates how the trap uses light to lure spotted lanternflies toward the capture system.</div>
-  </div>
-
-  <div class="ll-media">
-    <img src="{{ '/assets/images/intake-cardboard-prototype.png' | relative_url }}" alt="Cardboard prototype for the Lantern Lure trap" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
-    <div class="ll-placeholder"><b>intake-cardboard-prototype.png</b><br>Place the cardboard prototype image here.</div>
-    <div class="ll-caption"><b>Cardboard Prototype.</b> Documents the early physical model used to think through scale, geometry, and user-facing form before the functional build.</div>
-  </div>
+<div class="fp-card">
+<p>
+<b>Client Report:</b> The section below serves as the final project report on this overall project page. It summarizes the problem, the design solution, the supporting figures, and the prototype evidence that guided the final recommendations.
+</p>
 </div>
 
-## Functional Prototype
+---
 
-The prototype tested whether the rotating mechanism could move bug-sized objects through the trap while staying structurally stable. The main components were:
+<h2 id="client-report">Client Report</h2>
 
-- Rotating acrylic plate
-- Ridge system
-- Roof structure
-- Tube and containment path
-- Fasteners and string-based actuation
+<div class="fp-card">
+<p>
+Spotted lanternflies are an invasive pest that threaten grape production by feeding on vines and reducing crop quality. The client need behind Lantern Lure was to develop a practical vineyard solution that could attract lanternflies away from grapevines, capture them before harvest, and reduce reliance on chemical treatment.
+</p>
 
-The acrylic plate provided a transparent surface for light transmission while also acting as the moving part of the trap. Ridges on the plate created the mechanical interaction needed to push lanternflies inward or crush them. The roof helped keep targets in the device, and the tube created a path into containment.
+<p>
+The final concept focused on a perimeter-based light trap that uses light attraction, one-way containment, and a mechanical capture system. The project moved from early research and concept development into a functional prototype that could be tested and improved using measurable results.
+</p>
+</div>
 
-## Testing Summary
+## Problem and Design Requirements
 
-<div class="ll-table-wrap">
-<table class="ll-table">
+<div class="fp-table-wrap">
+<table class="fp-table">
   <tr>
-    <th>Test</th>
-    <th>What It Checked</th>
-    <th>Result</th>
+    <th>Requirement</th>
+    <th>Response</th>
   </tr>
   <tr>
-    <td>Light Transmission</td>
-    <td>Whether enough light passed through the acrylic to attract lanternflies.</td>
-    <td>The acrylic transmitted about 83% of the light, exceeding the 50% goal.</td>
+    <td>Protect grapevines from SLF damage</td>
+    <td>Use a perimeter trap to intercept insects before they reach the crop.</td>
   </tr>
   <tr>
-    <td>Shake Test</td>
-    <td>Whether the structure could withstand vibration similar to wind or outdoor disturbance.</td>
-    <td>The structure stayed intact, but some nuts loosened.</td>
+    <td>Attract insects effectively</td>
+    <td>Use a light-based lure that remains visible through the acrylic plate.</td>
   </tr>
   <tr>
-    <td>Speed Test</td>
-    <td>Whether the rotating plate could spin quickly without failing.</td>
-    <td>The mechanism reached about 7.25 rad/s with minor friction between the ridges and roof.</td>
+    <td>Capture and contain insects</td>
+    <td>Use roof and tube geometry together with a rotating ridge mechanism.</td>
   </tr>
   <tr>
-    <td>Throw Test</td>
-    <td>Whether bug-sized objects could be captured during impact.</td>
-    <td>All test objects were captured and the roof stayed stable.</td>
+    <td>Reduce chemical dependence</td>
+    <td>Favor a mechanical trapping approach instead of broad chemical treatment.</td>
   </tr>
   <tr>
-    <td>High Volume Test</td>
-    <td>Whether multiple objects could pass through the system at once.</td>
-    <td>Six smaller objects passed through, but larger objects could get stuck at the tube opening.</td>
-  </tr>
-  <tr>
-    <td>Tolerance Test</td>
-    <td>Whether manufactured parts fit together cleanly.</td>
-    <td>The parts assembled, but tighter tolerances would reduce the need for glue.</td>
+    <td>Support iteration with evidence</td>
+    <td>Test light transmission, durability, speed, impact capture, throughput, and fit.</td>
   </tr>
 </table>
 </div>
 
-## Results and Improvements
+<div class="fp-note">
+The client pitch established the overall vineyard problem and concept direction, while the prototype provided the performance evidence summarized in this report.
+</div>
 
-Testing showed that the Lantern Lure concept is mechanically promising. The light transmission test supported the acrylic material choice, and the throw test showed that the ridge mechanism can capture incoming targets. The prototype also revealed practical next steps: use locking fasteners, enlarge the tube opening by about 0.25 inches, tighten part tolerances by about 0.01 inches, and consider motorized rotation for more consistent operation.
+## Client Report Figures
 
-The strongest result was that the project moved from a client proposal into a working mechanism with measurable performance data. Instead of requiring a full redesign, the prototype identified specific improvements for reliability, manufacturing, and outdoor use.
+Add these images to `assets/images/` with these exact filenames:
+
+- `intake-cardboard-prototype.png`
+- `intake-exploded-cad.png`
+- `intake-light-mechanism-dark.png`
+- `intake-final-assembly.png`
+
+<div class="fp-gallery">
+
+<div class="fp-figure">
+<img src="{{ '/assets/images/intake-cardboard-prototype.png' | relative_url }}" alt="Cardboard prototype for Lantern Lure" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+<div class="fp-placeholder"><b>intake-cardboard-prototype.png</b><br>Put the cardboard prototype image here.</div>
+<div class="fp-figcap"><b>Cardboard Prototype.</b> Early physical model used to study form, layout, and general system structure.</div>
+</div>
+
+<div class="fp-figure">
+<img src="{{ '/assets/images/intake-exploded-cad.png' | relative_url }}" alt="Exploded CAD view of Lantern Lure" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+<div class="fp-placeholder"><b>intake-exploded-cad.png</b><br>Put the exploded CAD image here.</div>
+<div class="fp-figcap"><b>Exploded CAD View.</b> Shows the relationship between the acrylic plate, ridges, roof, tube, and fasteners.</div>
+</div>
+
+<div class="fp-figure">
+<img src="{{ '/assets/images/intake-light-mechanism-dark.png' | relative_url }}" alt="Lantern Lure light mechanism shown in the dark" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+<div class="fp-placeholder"><b>intake-light-mechanism-dark.png</b><br>Put the dark-room light mechanism image here.</div>
+<div class="fp-figcap"><b>Light Mechanism in the Dark.</b> Demonstrates the light-based attraction feature central to the design.</div>
+</div>
+
+<div class="fp-figure">
+<img src="{{ '/assets/images/intake-final-assembly.png' | relative_url }}" alt="Final assembled Lantern Lure prototype" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+<div class="fp-placeholder"><b>intake-final-assembly.png</b><br>Put the final assembled prototype image here.</div>
+<div class="fp-figcap"><b>Final Assembly.</b> Shows the completed prototype after moving from concept to functional build.</div>
+</div>
+
+</div>
+
+## Prototype Evidence
+
+<div class="fp-table-wrap">
+<table class="fp-table">
+  <tr>
+    <th>Test</th>
+    <th>Main Result</th>
+    <th>Implication</th>
+  </tr>
+  <tr>
+    <td>Light Transmission</td>
+    <td>About 83% of light passed through the acrylic.</td>
+    <td>The material remained suitable for light-based attraction.</td>
+  </tr>
+  <tr>
+    <td>Shake Test</td>
+    <td>The structure stayed intact, but nuts loosened slightly.</td>
+    <td>Locking fasteners should be added in the next iteration.</td>
+  </tr>
+  <tr>
+    <td>Speed Test</td>
+    <td>The mechanism reached about 7.25 rad/s with minor friction.</td>
+    <td>Motorized actuation and improved alignment would increase consistency.</td>
+  </tr>
+  <tr>
+    <td>Throw Test</td>
+    <td>All test objects were captured successfully.</td>
+    <td>The ridge concept works well under dynamic impact.</td>
+  </tr>
+  <tr>
+    <td>High Volume Test</td>
+    <td>Smaller objects passed through, larger ones could jam at the tube opening.</td>
+    <td>The opening should be enlarged by about 0.25 inches.</td>
+  </tr>
+  <tr>
+    <td>Tolerance Test</td>
+    <td>Parts assembled successfully, but glue was still needed.</td>
+    <td>Tighter tolerances would improve assembly quality.</td>
+  </tr>
+</table>
+</div>
+
+<div class="fp-note">
+The full test procedures and detailed prototype discussion remain on the Functional Prototype page, while this report keeps the key evidence in one place for the final milestone.
+</div>
+
+## Final Assessment
+
+<div class="fp-card">
+<p>
+Lantern Lure successfully developed from a research-based client pitch into a tested mechanical prototype. The project showed that a light-guided trapping system can be combined with a rotating ridge mechanism to capture incoming targets and move them into containment.
+</p>
+
+<p>
+The strongest outcomes were the successful light transmission, impact capture, and overall functional performance of the mechanism. The most important next steps are improving fastening reliability, increasing the tube opening, tightening assembly tolerances, and replacing manual actuation with a more consistent drive system.
+</p>
+</div>
 
 ## Reflection
 
-This project strengthened my ability to connect client needs with engineering decisions. The proposal stage required research into spotted lanternfly behavior and vineyard impact, while the prototype stage required hands-on iteration, CAD planning, fabrication, and testing. Lantern Lure demonstrates how an early design concept can become a functional prototype when the problem is translated into clear requirements and each test is tied back to the client.
+This project connected research, client-centered design, and prototype testing in one workflow. The Client Pitch defined the vineyard problem, the Functional Prototype tested the mechanism in practice, and this Client Report brings those milestones together into one overall project page.
