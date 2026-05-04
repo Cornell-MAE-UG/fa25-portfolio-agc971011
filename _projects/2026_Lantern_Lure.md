@@ -44,13 +44,6 @@ technologies: [Research, Mechanical Design, Prototyping, Testing, CAD]
   font-size: .92rem;
 }
 
-.ll-note {
-  margin: 1rem 0;
-  padding: .85rem 1rem;
-  border-left: 4px solid #6f8f52;
-  background: #f7fbf1;
-}
-
 @media (max-width: 760px) {
   .ll-nav {
     grid-template-columns: 1fr;
@@ -81,10 +74,6 @@ Lantern Lure is a vineyard pest-control concept designed to attract spotted lant
     <span>Final recommendation, testing summary, assembly, parts, and budget.</span>
   </div>
 </div>
-</div>
-
-<div class="ll-note">
-Use the milestone links above to move through the full Lantern Lure project. Each page is readable in the portfolio, and the final client report page also includes a PDF link.
 </div>
 
 ## Project Context

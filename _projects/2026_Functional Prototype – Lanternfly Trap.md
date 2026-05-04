@@ -45,9 +45,21 @@ hide_from_gallery: true
 .fp-table th,.fp-table td {padding:.6rem;border-bottom:1px solid #eee;}
 
 .fp-note {background:#f8fbf3;padding:.8rem;border-left:4px solid #799d4b;}
+.fp-hub-link {
+  display:inline-block;
+  padding:.55rem .8rem;
+  margin-bottom:1rem;
+  border:1px solid #6f8f52;
+  border-radius:6px;
+  color:#34481f;
+  text-decoration:none;
+  font-weight:700;
+}
 </style>
 
 <div class="fp-hero">
+<a class="fp-hub-link" href="{{ site.baseurl }}{% link _projects/2026_Lantern_Lure.md %}">Project Hub</a>
+
 <h2>Functional Prototype – Lanternfly Trap</h2>
 
 <p>

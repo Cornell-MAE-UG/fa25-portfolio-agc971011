@@ -7,6 +7,21 @@ image: /assets/images/fly.png
 hide_from_gallery: true
 ---
 
+<style>
+.project-hub-button {
+  display: inline-block;
+  padding: .55rem .8rem;
+  margin: 0 0 1rem;
+  border: 1px solid #6f8f52;
+  border-radius: 6px;
+  color: #34481f;
+  text-decoration: none;
+  font-weight: 700;
+}
+</style>
+
+<a class="project-hub-button" href="{{ site.baseurl }}{% link _projects/2026_Lantern_Lure.md %}">Project Hub</a>
+
 We collaborated on an engineering design project focused on mitigating the impact of Spotted Lanternflies (SLFs) on grape production. Our team, *Grape Guardians*, saught to address the increasing economic and agricultural damage caused by SLFs in vineyards.
 
 We developed an idea of a perimeter-based light trap system designed to attract SLFs away from grapevines, preventing infestation before harvest. Conducted background research on SLF behavior, population density, and projected economic impact, using data-driven analysis to justify a preventative design approach rather than post-harvest separation. The trapping mechanism would incorporate one-way entry to contain insects while minimizing chemical usage and utilizing light.
