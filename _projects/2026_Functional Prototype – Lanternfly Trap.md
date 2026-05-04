@@ -4,6 +4,7 @@ title: Functional Prototype – Lanternfly Trap
 description: First functional prototype of a lanternfly trapping mechanism using a rotating disk and ridge system
 image: /assets/images/exploded_view.png
 technologies: [Mechanical Design, Prototyping, 3D Printing, Testing, CAD]
+hide_from_gallery: true
 ---
 
 <style>
